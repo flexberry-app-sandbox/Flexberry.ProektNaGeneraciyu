@@ -1,0 +1,243 @@
+﻿{
+  "name": "IISProekt_na_generaciyuСпрос",
+  "modelName": "i-i-s-proekt-na-generaciyu-спрос",
+  "className": "Спрос",
+  "nameSpace": "IIS.Proekt_na_generaciyu",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "броньЧерСайт",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "занятВМесяц",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "категорНомера",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "скВторНомер",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "скДр",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "скПриДлитПрож",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "суммСоСкид",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "цена",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "юридич",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СпросE",
+      "modelName": "i-i-s-proekt-na-generaciyu-спрос",
+      "attrs": [
+        {
+          "name": "категорНомера",
+          "caption": "Категор номера",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "скДр",
+          "caption": "Ск др",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "броньЧерСайт",
+          "caption": "Бронь чер сайт",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "скПриДлитПрож",
+          "caption": "Ск при длит прож",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "занятВМесяц",
+          "caption": "Занят в месяц",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "суммСоСкид",
+          "caption": "Сумм со скид",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 7
+        },
+        {
+          "name": "скВторНомер",
+          "caption": "Ск втор номер",
+          "hidden": false,
+          "index": 8
+        },
+        {
+          "name": "юридич",
+          "caption": "Юридич",
+          "hidden": false,
+          "index": 9
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СпросL",
+      "modelName": "i-i-s-proekt-na-generaciyu-спрос",
+      "attrs": [
+        {
+          "name": "категорНомера",
+          "caption": "Категор номера",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "скДр",
+          "caption": "Ск др",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "броньЧерСайт",
+          "caption": "Бронь чер сайт",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "скПриДлитПрож",
+          "caption": "Ск при длит прож",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "занятВМесяц",
+          "caption": "Занят в месяц",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "суммСоСкид",
+          "caption": "Сумм со скид",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 7
+        },
+        {
+          "name": "скВторНомер",
+          "caption": "Ск втор номер",
+          "hidden": false,
+          "index": 8
+        },
+        {
+          "name": "юридич",
+          "caption": "Юридич",
+          "hidden": false,
+          "index": 9
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

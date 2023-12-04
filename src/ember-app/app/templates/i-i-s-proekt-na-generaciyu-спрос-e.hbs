@@ -1,0 +1,127 @@
+<h3 class="ui header">{{t "forms.i-i-s-proekt-na-generaciyu-спрос-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.категорНомера
+      class=(if (v-get validationModel "категорНомера" "isInvalid") "error")
+      label=(t "forms.i-i-s-proekt-na-generaciyu-спрос-e.категорНомера-caption")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-категорНомера=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "категорНомера" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-proekt-na-generaciyu-спрос-e.скДр-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.скДр
+      class=(if (v-get validationModel "скДр" "isInvalid") "error")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-скДр=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "скДр" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.цена
+      class=(if (v-get validationModel "цена" "isInvalid") "error")
+      label=(t "forms.i-i-s-proekt-na-generaciyu-спрос-e.цена-caption")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-цена=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "цена" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-proekt-na-generaciyu-спрос-e.броньЧерСайт-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.броньЧерСайт
+      class=(if (v-get validationModel "броньЧерСайт" "isInvalid") "error")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-броньЧерСайт=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "броньЧерСайт" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-proekt-na-generaciyu-спрос-e.скПриДлитПрож-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.скПриДлитПрож
+      class=(if (v-get validationModel "скПриДлитПрож" "isInvalid") "error")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-скПриДлитПрож=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "скПриДлитПрож" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.занятВМесяц
+      class=(if (v-get validationModel "занятВМесяц" "isInvalid") "error")
+      label=(t "forms.i-i-s-proekt-na-generaciyu-спрос-e.занятВМесяц-caption")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-занятВМесяц=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "занятВМесяц" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.суммСоСкид
+      class=(if (v-get validationModel "суммСоСкид" "isInvalid") "error")
+      label=(t "forms.i-i-s-proekt-na-generaciyu-спрос-e.суммСоСкид-caption")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-суммСоСкид=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "суммСоСкид" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номер
+      class=(if (v-get validationModel "номер" "isInvalid") "error")
+      label=(t "forms.i-i-s-proekt-na-generaciyu-спрос-e.номер-caption")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-номер=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номер" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-proekt-na-generaciyu-спрос-e.скВторНомер-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.скВторНомер
+      class=(if (v-get validationModel "скВторНомер" "isInvalid") "error")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-скВторНомер=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "скВторНомер" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-proekt-na-generaciyu-спрос-e.юридич-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.юридич
+      class=(if (v-get validationModel "юридич" "isInvalid") "error")
+      data-test-i-i-s-proekt-na-generaciyu-спрос-e-юридич=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "юридич" "message")}}
+  </div>
+</form>

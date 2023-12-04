@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Спрос",
+      "projection": "СпросL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ОсновПоказат",
+      "projection": "ОсновПоказатL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ЦелеваяАудит",
+      "projection": "ЦелеваяАудитL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Должность",
+      "projection": "ДолжностьL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Маркетолог",
+  "name": "IISProekt_na_generaciyuМаркетологE",
+  "className": "МаркетологE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-маркетолог",
+      "modelProjection": "МаркетологE"
+    }
+  ]
+}

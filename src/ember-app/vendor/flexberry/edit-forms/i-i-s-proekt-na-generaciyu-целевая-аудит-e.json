@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Целевая аудит",
+  "name": "IISProekt_na_generaciyuЦелеваяАудитE",
+  "className": "ЦелеваяАудитE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+      "modelProjection": "ЦелеваяАудитE"
+    }
+  ]
+}

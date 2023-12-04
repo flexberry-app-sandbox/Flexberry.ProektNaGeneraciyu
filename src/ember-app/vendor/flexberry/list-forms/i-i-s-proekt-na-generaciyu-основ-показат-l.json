@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-na-generaciyu-основ-показат-e",
+  "editForm": "i-i-s-proekt-na-generaciyu-основ-показат-e",
+  "external": false,
+  "caption": "Основ показат",
+  "name": "IISProekt_na_generaciyuОсновПоказатL",
+  "className": "ОсновПоказатL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-основ-показат",
+      "modelProjection": "ОсновПоказатL"
+    }
+  ]
+}

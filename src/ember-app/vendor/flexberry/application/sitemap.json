@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Proekt_na_generaciyu",
+  "applicationTitle": "Proekt_na_generaciyu",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proekt-na-generaciyu",
+      "caption": "Proekt_na_generaciyu",
+      "title": "Proekt_na_generaciyu",
+      "children": [
+        {
+          "link": "i-i-s-proekt-na-generaciyu-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-na-generaciyu-целевая-аудит-l",
+          "menuName": null,
+          "caption": "Целевая аудит",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-na-generaciyu-маркетолог-l",
+          "menuName": null,
+          "caption": "Маркетолог",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-na-generaciyu-основ-показат-l",
+          "menuName": null,
+          "caption": "Основ показат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-na-generaciyu-персонал-l",
+          "menuName": null,
+          "caption": "Персонал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-na-generaciyu-спрос-l",
+          "menuName": null,
+          "caption": "Спрос",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

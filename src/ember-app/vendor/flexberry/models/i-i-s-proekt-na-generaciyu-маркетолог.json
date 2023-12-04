@@ -1,0 +1,248 @@
+﻿{
+  "name": "IISProekt_na_generaciyuМаркетолог",
+  "modelName": "i-i-s-proekt-na-generaciyu-маркетолог",
+  "className": "Маркетолог",
+  "nameSpace": "IIS.Proekt_na_generaciyu",
+  "parentModelName": "i-i-s-proekt-na-generaciyu-персонал",
+  "parentClassName": "Персонал",
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "основПоказат",
+      "relatedTo": "i-i-s-proekt-na-generaciyu-основ-показат",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрос",
+      "relatedTo": "i-i-s-proekt-na-generaciyu-спрос",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "целеваяАудит",
+      "relatedTo": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "МаркетологE",
+      "modelName": "i-i-s-proekt-na-generaciyu-маркетолог",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "КатегорНомера",
+          "lookupValueField": "категорНомера",
+          "relationName": "Спрос",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "категорНомера",
+              "caption": "Категор номера",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Спрос",
+          "name": "спрос",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-спрос",
+          "inverse": null
+        },
+        {
+          "lookupValue": "ВыручЗаГостя",
+          "lookupValueField": "выручЗаГостя",
+          "relationName": "ОсновПоказат",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "выручЗаГостя",
+              "caption": "Выруч за гостя",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Основ показат",
+          "name": "основПоказат",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-основ-показат",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Пол",
+          "lookupValueField": "пол",
+          "relationName": "ЦелеваяАудит",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "пол",
+              "caption": "Пол",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Целевая аудит",
+          "name": "целеваяАудит",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Должность",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 9
+            }
+          ],
+          "index": 8,
+          "type": "standard",
+          "caption": "Должность",
+          "name": "должность",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-должность",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "МаркетологL",
+      "modelName": "i-i-s-proekt-na-generaciyu-маркетолог",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Спрос",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "категорНомера",
+              "caption": "Категор номера",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Категор номера",
+          "name": "спрос",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-спрос",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ОсновПоказат",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "выручЗаГостя",
+              "caption": "Выруч за гостя",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Выруч за гостя",
+          "name": "основПоказат",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-основ-показат",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЦелеваяАудит",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "пол",
+              "caption": "Пол",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Пол",
+          "name": "целеваяАудит",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Должность",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "должность",
+          "relatedTo": "i-i-s-proekt-na-generaciyu-должность",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

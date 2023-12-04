@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-na-generaciyu-маркетолог-e",
+  "editForm": "i-i-s-proekt-na-generaciyu-маркетолог-e",
+  "external": false,
+  "caption": "Маркетолог",
+  "name": "IISProekt_na_generaciyuМаркетологL",
+  "className": "МаркетологL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-маркетолог",
+      "modelProjection": "МаркетологL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-na-generaciyu-спрос-e",
+  "editForm": "i-i-s-proekt-na-generaciyu-спрос-e",
+  "external": false,
+  "caption": "Спрос",
+  "name": "IISProekt_na_generaciyuСпросL",
+  "className": "СпросL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-спрос",
+      "modelProjection": "СпросL"
+    }
+  ]
+}

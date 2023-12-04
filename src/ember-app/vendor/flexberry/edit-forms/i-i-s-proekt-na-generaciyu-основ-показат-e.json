@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Основ показат",
+  "name": "IISProekt_na_generaciyuОсновПоказатE",
+  "className": "ОсновПоказатE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-основ-показат",
+      "modelProjection": "ОсновПоказатE"
+    }
+  ]
+}

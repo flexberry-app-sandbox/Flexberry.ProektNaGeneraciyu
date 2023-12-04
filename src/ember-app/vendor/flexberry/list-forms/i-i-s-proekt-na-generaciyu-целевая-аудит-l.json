@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-na-generaciyu-целевая-аудит-e",
+  "editForm": "i-i-s-proekt-na-generaciyu-целевая-аудит-e",
+  "external": false,
+  "caption": "Целевая аудит",
+  "name": "IISProekt_na_generaciyuЦелеваяАудитL",
+  "className": "ЦелеваяАудитL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+      "modelProjection": "ЦелеваяАудитL"
+    }
+  ]
+}

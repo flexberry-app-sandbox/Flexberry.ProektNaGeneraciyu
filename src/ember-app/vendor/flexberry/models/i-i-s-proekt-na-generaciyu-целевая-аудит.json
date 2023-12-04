@@ -1,0 +1,180 @@
+﻿{
+  "name": "IISProekt_na_generaciyuЦелеваяАудит",
+  "modelName": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+  "className": "ЦелеваяАудит",
+  "nameSpace": "IIS.Proekt_na_generaciyu",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "возраст",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаРожд",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "национальн",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "образование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "пол",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "семейнПол",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЦелеваяАудитE",
+      "modelName": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+      "attrs": [
+        {
+          "name": "пол",
+          "caption": "Пол",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "национальн",
+          "caption": "Национальн",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "возраст",
+          "caption": "Возраст",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "семейнПол",
+          "caption": "Семейн пол",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "образование",
+          "caption": "Образование",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "датаРожд",
+          "caption": "Дата рожд",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЦелеваяАудитL",
+      "modelName": "i-i-s-proekt-na-generaciyu-целевая-аудит",
+      "attrs": [
+        {
+          "name": "пол",
+          "caption": "Пол",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "национальн",
+          "caption": "Национальн",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "возраст",
+          "caption": "Возраст",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "семейнПол",
+          "caption": "Семейн пол",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "образование",
+          "caption": "Образование",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "датаРожд",
+          "caption": "Дата рожд",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
